@@ -1,0 +1,25 @@
+## Interface: 50500
+## Version: 1.00
+## Author: Pirson
+
+## Title: |TInterface/Addons/VendorItemFilter/img/logo_vif:16:16|t |cffd597ffVendor Item Filter|r
+
+## Notes: |cFF33CCFFFilter items in the vendor frame by type, armor, weapons, or accessories.|r
+## Notes-esES: |cFF33CCFFFiltra los objetos en la ventana del vendedor por tipo, armadura, armas o accesorios.|r
+## Notes-esMX: |cFF33CCFFFiltra los objetos en la ventana del vendedor por tipo, armadura, armas o accesorios.|r
+## Notes-deDE: |cFF33CCFFFiltert Gegenstände im Händlerfenster nach Typ, Rüstung, Waffen oder Zubehör.|r
+## Notes-frFR: |cFF33CCFFFiltre les objets dans la fenêtre du marchand par type, armure, armes ou accessoires.|r
+## Notes-itIT: |cFF33CCFFFiltra gli oggetti nella finestra del mercante per tipo, armatura, armi o accessori.|r
+## Notes-koKR: |cFF33CCFF상인 창에서 아이템을 종류, 방어구, 무기 또는 장신구별로 필터링합니다.|r
+## Notes-ptBR: |cFF33CCFFFiltra os itens na janela do vendedor por tipo, armadura, armas ou acessórios.|r
+## Notes-ptPT: |cFF33CCFFFiltra os itens na janela do vendedor por tipo, armadura, armas ou acessórios.|r
+## Notes-ruRU: |cFF33CCFFФильтрует предметы в окне торговца по типу, броне, оружию или аксессуарам.|r
+## Notes-zhCN: |cFF33CCFF在商人界面中按类型、护甲、武器或配饰过滤物品。|r
+## Notes-zhTW: |cFF33CCFF在商人界面中按类型、護甲、武器或配件過濾物品。|r
+
+## SavedVariables: VendorItemFilterDB
+
+## X-Curse-Project-ID: 1343504
+
+Locales.lua
+VendorItemFilter.lua
