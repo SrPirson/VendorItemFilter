@@ -150,7 +150,14 @@ end
 local function CreateDropdown()
     if VendorItemFilterDropdown then return end
     local dropdown = CreateFrame("Frame", "VendorItemFilterDropdown", MerchantFrame, "UIDropDownMenuTemplate")
-    dropdown:SetPoint("TOPLEFT", MerchantFrame, "TOPLEFT", 60, -30)
+
+    if IsAddOnLoaded("ElvUI") then
+        dropdown:SetPoint("BOTTOMLEFT", MerchantFrame, "BOTTOMLEFT", -19, 80)
+    else
+        dropdown:SetPoint("TOPLEFT", MerchantFrame, "TOPLEFT", 60, -30)
+    end
+
+
     UIDropDownMenu_SetWidth(dropdown, 180)
     UIDropDownMenu_SetText(dropdown, L.ALL)
 end
@@ -279,7 +286,12 @@ function VendorItemFilter:InitDropdown()
         end
     end)
 
-    UIDropDownMenu_SetWidth(VendorItemFilterDropdown,180)
+    if IsAddOnLoaded("ElvUI") then
+        UIDropDownMenu_SetWidth(VendorItemFilterDropdown,140)
+    else
+        UIDropDownMenu_SetWidth(VendorItemFilterDropdown,180)
+    end
+    
     UIDropDownMenu_SetText(VendorItemFilterDropdown,L.ALL)
 end
 
