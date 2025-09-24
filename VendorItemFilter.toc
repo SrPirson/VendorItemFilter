@@ -1,5 +1,5 @@
-## Interface: 50500
-## Version: 1.01
+## Interface: 50501
+## Version: 1.02
 ## Author: Pirson
 
 ## Title: |TInterface/Addons/VendorItemFilter/img/logo_vif:16:16|t |cffd597ffVendor Item Filter|r
